@@ -1,7 +1,6 @@
 # 🧠 20. State Management Libraries
 
 ---
-utsav vachhani 
 
 ## 📘 Overview
 
