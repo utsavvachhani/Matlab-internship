@@ -28,6 +28,20 @@ This repository acts as the central hub for my study journey — neatly divided 
 
 ---
 
+### 🔹 Question Bank: 
+
+> Dedicated PDF with structured questions and answers for MERN Module 1 to 6 . Make sure to check it for the correct answers while practicing.
+
+| module | Link |
+|:--:|:--:|
+|1|[Link](./Question-Bank/AWT_module-1_uv.pdf)|
+|2|[Link](./Question-Bank/AWT_module-2_uv.pdf)|
+|3|[Link](./Question-Bank/AWT_module-3_uv.pdf)|
+|4|[Link](./Question-Bank/AWT_module-4_uv.pdf)|
+|5|[Link](./Question-Bank/AWT_module-5_uv.pdf)|
+|6|[Link](./Question-Bank/AWT_module-6_uv.pdf)|
+
+---
 ## 🧠 Purpose of This Repository
 
 This repository is designed to:
@@ -69,3 +83,6 @@ You can find me across various platforms. Check out my profiles and follow along
 
 ⭐ **If you find this repository helpful, consider giving it a star!**  
 Thank you for visiting 🙌  
+
+
+[vcnv](./Question-Bank/AWT_module-1_uv.pdf)
