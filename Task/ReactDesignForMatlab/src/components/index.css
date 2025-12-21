@@ -1,0 +1,164 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+
+
+html {
+  direction: rtl;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Heebo", "Rubik", sans-serif;
+  background-color: #f8f9fc;
+  color: #111827;
+}
+
+/* =========================
+   HEX SECTION
+========================= */
+.hex-container {
+  display: none;
+}
+
+/* ===== DESKTOP ===== */
+@media (min-width: 1024px) {
+  .hex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+  }
+
+  .hex-row {
+    display: flex;
+    gap: 32px;
+  }
+
+  .hex-top {
+    transform: translateX(130px);
+  }
+
+  .hex-bottom {
+    transform: translateX(0);
+  }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 1023px) {
+  .hex-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    justify-items: center;
+  }
+
+  .hex-row {
+    display: contents;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+/* =========================
+   HEX CARD
+========================= */
+.hex-card {
+  width: 260px;
+  height: 300px;
+  background: #ffffffee; /* dark white */
+  clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  padding: 32px 24px;
+  position: relative;
+  text-align: right;
+  direction: rtl;
+
+  /* premium shadow */
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.08),
+    0 4px 12px rgba(0, 0, 0, 0.04);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* hover polish */
+.hex-card:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.12),
+    0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+/* =========================
+   BLUR CARD
+========================= */
+.hex-blur {
+  filter: blur(6px);
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+/* =========================
+   CARD CONTENT
+========================= */
+.hex-tag {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #eef0ff;
+  color: #4f46e5;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.hex-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.hex-sub {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.hex-list {
+  font-size: 14px;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+.hex-btn {
+  margin-top: 16px;
+  color: #ec4899;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* =========================
+   UTILITIES
+========================= */
+.textColor {
+  background: linear-gradient(90deg, #6366f1, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

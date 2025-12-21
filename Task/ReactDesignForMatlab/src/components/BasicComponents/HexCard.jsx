@@ -1,20 +1,29 @@
-// src/components/BasicComponents/HexCard.jsx
-import React from "react";
-
-function HexCard({ tag, title, desc }) {
+function HexCard({ tag, title, desc = [], blurred = false }) {
   return (
-    <div className="hex-card">
-      {/* Tag */}
+    <div className={`hex-card ${blurred ? "hex-blur" : ""}`}>
       <span className="hex-tag">{tag}</span>
 
-      {/* Content */}
       <h3 className="hex-title">{title}</h3>
-      <p className="hex-desc">{desc}</p>
 
-      {/* CTA */}
-      <button className="hex-btn">
-        התחילו עכשיו <span>←</span>
-      </button>
+      {/* main description */}
+      <p className="hex-sub">
+        בדיקה חכמה של כל ההחזרים והזכויות שמגיעים לכם.
+      </p>
+
+      {/* bullet list (SAFE) */}
+      {desc.length > 1 && (
+        <ul className="hex-list">
+          {desc.slice(1).map((item, i) => (
+            <li key={i}>• {item}</li>
+          ))}
+        </ul>
+      )}
+
+      {!blurred && (
+        <button className="hex-btn">
+          התחילו עכשיו <span>←</span>
+        </button>
+      )}
     </div>
   );
 }
