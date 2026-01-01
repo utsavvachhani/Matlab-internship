@@ -1,6 +1,8 @@
-import MemoryIcon from "@mui/icons-material/Memory";
-import SavingsIcon from "@mui/icons-material/Savings";
-import SettingsSuggestIcon from "@mui/icons-material/SettingsSuggest";
+import {
+  feature3 as MemoryIcon,
+  feature2 as SavingsIcon,
+  feature1 as SettingsSuggestIcon
+} from "../assets"
 
 export const FEATURE_DATA = [
   {

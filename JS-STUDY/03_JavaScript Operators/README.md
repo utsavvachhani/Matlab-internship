@@ -8,13 +8,6 @@ Here's a small, perfect message for your GitHub repository:
 
 -----
 
-This repository is dedicated to exploring the **01\_basics** of JavaScript. Dive in to find foundational concepts, examples, and simple exercises to kickstart your coding journey.
-
-If you'd like to explore this specific section further, you can visit the direct path here:
-**[https://github.com/utsavvachhani/js-studey/tree/main/01](https://www.google.com/search?q=https://github.com/utsavvachhani/js-studey/tree/main/01\_basics)**
-
-
-
 ---
 
 ## 🔹 1. Assignment Operators

@@ -1,7 +1,9 @@
-import FactCheckIcon from "@mui/icons-material/FactCheck";
-import { ProfilePic } from "../assets";
-import EditCalendarOutlinedIcon from "@mui/icons-material/EditCalendarOutlined";
-import NoteAddOutlinedIcon from "@mui/icons-material/NoteAddOutlined";
+import {
+  ProfilePic,
+  icon1 as EditCalendarOutlinedIcon,
+  icon2 as NoteAddOutlinedIcon,
+  icon3 as FactCheckIcon,
+} from "../assets";
 
 function ProfileSection() {
   return (
@@ -31,7 +33,11 @@ function ProfileSection() {
             {/* Step 1 */}
             <div className="flex items-start gap-6 relative">
               <div className="bg-white rounded-xl w-12 h-12 flex items-center justify-center z-10">
-                <EditCalendarOutlinedIcon className="text-black" />
+                <img
+                  src={EditCalendarOutlinedIcon}
+                  alt="Calendar"
+                  className="w-6 h-6 object-contain"
+                />
               </div>
 
               <div>
@@ -47,7 +53,11 @@ function ProfileSection() {
             {/* Step 2 */}
             <div className="flex items-start gap-6 relative">
               <div className="bg-white rounded-xl w-12 h-12 flex items-center justify-center z-10">
-                <NoteAddOutlinedIcon className="text-black" />
+                <img
+                  src={NoteAddOutlinedIcon}
+                  alt="Calendar"
+                  className="w-6 h-6 object-contain"
+                />
               </div>
 
               <div>
@@ -62,7 +72,11 @@ function ProfileSection() {
             {/* Step 3 */}
             <div className="flex items-start gap-6 relative">
               <div className="bg-white rounded-xl w-12 h-12 flex items-center justify-center z-10">
-                <FactCheckIcon className="text-black" />
+                <img
+                  src={FactCheckIcon}
+                  alt="Calendar"
+                  className="w-6 h-6 object-contain"
+                />
               </div>
 
               <div>

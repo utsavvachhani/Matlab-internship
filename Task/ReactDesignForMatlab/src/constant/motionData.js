@@ -1,11 +1,10 @@
-// src/constants/motionData.js
 import {
-  Logo1,
-  Logo2,
-  Logo3,
-  Logo4,
-  Logo5,
-  Logo6,
+  motion1,
+  motion2,
+  motion3,
+  motion4,
+  motion5,
+  motion6,
 } from "../assets";
 
 export const testimonials = [
@@ -14,8 +13,8 @@ export const testimonials = [
     isLeft: true,
 
     left: {
-      mainText: "Grow your business faster",
-      secondText: "We help startups scale with modern solutions",
+      mainText: "1.2 מיליון ₪",
+      secondText: "כסף שנכנס ללקוחות בירוקליק",
     },
 
     onHoverLeft: {
@@ -24,15 +23,15 @@ export const testimonials = [
     },
 
     right: {
-      avatar: Logo1,
-      username: "John Doe",
-      userRole: "Startup Founder",
+      avatar: motion1,
+      username: "הלני זר",
+      userRole: "הכינה מכתב לתביעה קטנה",
       feedback:
-        "This platform completely transformed the way we handle our workflow. Highly recommended!",
+        "“לא ידעתי איך בכלל להתחיל לכתוב מכתב לתביעה קטנה. בירוקליק הנחתה אותי שלב אחרי שלב וייצרה בשבילי מכתב שנראה כאילו נכתב על ידי עורך דין. הרגשתי ביטחון שאני מציגה את הסיפור שלי כמו שצריך.”",
     },
 
     onHoverRight: {
-      avatar: Logo4,
+      avatar: motion4,
       username: "John Doe",
       userRole: "Startup Founder",
       feedback:
@@ -45,8 +44,8 @@ export const testimonials = [
     isLeft: false,
 
     left: {
-      mainText: "Designed for performance",
-      secondText: "Optimized tools for real-world results",
+      mainText: "4 דקות",
+      secondText: "זמן ממוצע בתהליך",
     },
 
     onHoverLeft: {
@@ -55,19 +54,18 @@ export const testimonials = [
     },
 
     right: {
-      avatar: Logo2,
-      username: "Sarah Williams",
-      userRole: "Product Manager",
+      avatar: motion2,
+      username: "דניאל מתיתיהו",
+      userRole: "קיבל החזר מחברת ביטוח",
       feedback:
-        "The UI is clean, the animations are smooth, and the performance is outstanding.",
+        "״המערכת של בירוקליק חסכה לי שעות של ניסיונות להבין איך לנסח מכתב לביטוח. הכל היה פשוט — כמה שאלות קצרות ובום, יצא מכתב מוכן לשליחה. לא דמיינתי שזה יהיה כל כך קל!״",
     },
 
     onHoverRight: {
-      avatar: Logo5,
+      avatar: motion5,
       username: "Sarah Williams",
       userRole: "Product Manager",
-      feedback:
-        "Our users immediately noticed the difference after switching.",
+      feedback: "Our users immediately noticed the difference after switching.",
     },
   },
 
@@ -76,8 +74,8 @@ export const testimonials = [
     isLeft: true,
 
     left: {
-      mainText: "Trusted by professionals",
-      secondText: "Used by teams across the globe",
+      mainText: "130",
+      secondText: "תהליכים שהושלמו בהצלחה",
     },
 
     onHoverLeft: {
@@ -86,19 +84,18 @@ export const testimonials = [
     },
 
     right: {
-      avatar: Logo3,
-      username: "Michael Lee",
-      userRole: "UX Designer",
+      avatar: motion3,
+      username: "סהר מזרחי",
+      userRole: "הכין מכתב לתביעה",
       feedback:
-        "I love how intuitive everything feels. It makes my daily work much easier.",
+        "“במקום לשבת שעות מול דף ריק, נכנסתי לבירוקליק ותוך דקות היה לי מכתב מסודר וברור להגשה לבית המשפט. אהבתי במיוחד את השפה — מקצועית אבל מובנת. ממש שירות מציל עצבים.”",
     },
 
     onHoverRight: {
-      avatar: Logo6,
+      avatar: motion6,
       username: "Michael Lee",
       userRole: "UX Designer",
-      feedback:
-        "The attention to detail and UX polish is top-tier.",
+      feedback: "The attention to detail and UX polish is top-tier.",
     },
   },
 ];

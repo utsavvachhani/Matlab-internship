@@ -6,7 +6,7 @@ function FeatureSection() {
     <section className="w-full py-20 px-4">
       {/* Title */}
       <h2 className="text-center text-3xl md:text-4xl font-bold mb-16">
-        <span>כל הסיבות </span> 
+        <span>כל הסיבות </span>
         <span className="textColor"> לבחור בנו</span>{" "}
       </h2>
 
@@ -27,16 +27,20 @@ function FeatureSection() {
               {/* Icon */}
               <div
                 className="
-                  mx-auto mb-6
-                  w-16 h-16
-                  flex items-center justify-center
-                  rounded-xl
-                  bg-pink-500
-                  transition-transform duration-300
-                  group-hover:rotate-12
-                "
+    mx-auto mb-6
+    w-16 h-16
+    flex items-center justify-center
+    rounded-xl
+    bg-pink-500
+    transition-transform duration-300
+    group-hover:rotate-12
+  "
               >
-                <Icon className="text-white text-5xl" />
+                <img
+                  src={item.icon}
+                  alt={item.title}
+                  className="w-10 h-10 object-contain"
+                />
               </div>
 
               {/* Title */}

@@ -10,8 +10,8 @@ function Navbar() {
   const [MobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="space-x-1" style={{ backgroundColor: "var(--nav-bg)" }}>
-      <div className="w-full flex items-center justify-between px-10 py-5 shadow-md fixed top-0 z-50">
+    <nav className="space-x-1 " style={{ backgroundColor: "var(--nav-bg)" }}>
+      <div className="w-full bg-white flex items-center justify-between px-10 py-5 shadow-md fixed top-0 z-50">
 
         {/* Mobile Menu Toggle */}
         <div className="block md:hidden">
