@@ -18,7 +18,7 @@ function ProfileSection() {
         "
       >
         {/* RIGHT CONTENT */}
-        <div className="w-full lg:w-1/2 text-right">
+        <div className="w-full lg:w-1/2 text-right mr-14">
           {/* Title */}
           <h2 className="text-3xl md:text-4xl font-bold mb-12">
             <span>איך זה עובד?</span>

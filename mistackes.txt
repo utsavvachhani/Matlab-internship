@@ -1,0 +1,25 @@
+we are biggners not pro ..... 
+
+<Navbar /> 
+	- Spacing
+	- Not Else	
+<ArrowShown/> : 
+	- SPacing at left
+<InfinitiLogo /> : 
+	- Logoes have more sapce at above and below
+<ProfileSection/>:
+	- No Issues
+<FeatureSection /> : 
+	- Icons and Spacing
+<HexaSection /> : 
+	- Hex Not comes
+<MotionSection /> :
+	- Change The Name 
+<FQA/> : 
+	- Perfect 
+<CaseStudy /> : 
+	- Perfect
+<ContactUs/> : 
+	- Perfect
+<Footer/> : 
+	- Perfect

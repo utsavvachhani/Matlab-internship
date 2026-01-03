@@ -3,10 +3,10 @@ import arrayImage from "../assets/Logos/arrowImage.png";
 
 export default function ArrowShown() {
   return (
-    <section className="w-full text-white py-20 px-6">
+    <section className="w-full text-white py-12 px-6">
       <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-16">
         {/* LEFT CONTENT */}
-        <div className="w-full lg:w-1/2 text-right">
+        <div className="w-full lg:w-1/2 text-right  mr-16">
           {/* Badge */}
           <span className="inline-flex items-center gap-2 bg-white/10 text-pink-400 px-4 py-2 rounded-full text-sm mb-6">
             ✨ פלטפורמת AI לתהליכים בירוקרטיים

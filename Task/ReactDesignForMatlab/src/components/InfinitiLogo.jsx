@@ -4,8 +4,8 @@ import { LOGOS } from "../constant/infinitiLogo";
 
 function InfinitiLogo() {
   return (
-    <section className="w-full py-12 bg-white overflow-hidden">
-      <div className="relative h-20">
+    <section className="w-full  overflow-hidden">
+      <div className="relative h-16">
         <LogoLoop
           logos={LOGOS}
           speed={50}
