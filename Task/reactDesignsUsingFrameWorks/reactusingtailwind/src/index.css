@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  --text-color: #ffffff;
+  --hover-text-color: #dbc9c9;
+  --table-baground-color: #1a1a1a;
+}
+
+.textColor {
+  color: var(--text-color);
+}
+
+.textColor:hover {
+  color: var(--hover-text-color);
+}
+
+.tableBackground {
+  background-color: var(--table-baground-color);
+}

@@ -11,19 +11,20 @@ import Navbar from "./components/Navbar";
 import ProfileSection from "./components/ProfileSection";
 
 function App() {
+
   return (
     <>
-      <Navbar /> 
-      <ArrowShown/>
+      <Navbar />
+      <ArrowShown />
       <InfinitiLogo />
-      <ProfileSection/>
+      <ProfileSection />
       <FeatureSection />
       <HexaSection />
       <MotionSection />
-      <FQA/>
+      <FQA />
       <CaseStudy />
-      <ContactUs/>
-      <Footer/>
+      <ContactUs />
+      <Footer />
     </>
   );
 }

@@ -62,7 +62,7 @@ function HexaSection() {
         {/* ================= DESKTOP ================= */}
         <div dir="ltr" className="hidden md:flex items-center gap-28">
           {/* HEX GRID */}
-          <div className="relative w-[660px] h-[460px] shrink-0">
+          <div className="relative w-165 h-115 shrink-0">
             {HEXA_CARDS.map((card, index) => (
               <HexCard
                 key={card.id}

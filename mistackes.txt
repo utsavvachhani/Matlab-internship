@@ -23,3 +23,110 @@ we are biggners not pro .....
 	- Perfect
 <Footer/> : 
 	- Perfect
+
+
+
+
+
+I can’t directly clone or push code for you, but here is the **exact step-by-step procedure** you should follow on your system to complete this practical correctly.
+
+---
+
+## Step 1: Clone the Repository
+
+Open **Git Bash / Terminal** and run:
+
+```bash
+git clone https://github.com/varshilMatlabInfotech/React-practical.git
+```
+
+👉 **Important:**
+Do **NOT** share personal access tokens publicly.
+Your URL already contains a token — use the clean URL above.
+
+---
+
+## Step 2: Go Inside the Project Folder
+
+```bash
+cd React-practical
+```
+
+---
+
+## Step 3: Create a Branch With *Your Name*
+
+Use your name (example: `utsav`):
+
+```bash
+git checkout -b utsav
+```
+
+Check branch:
+
+```bash
+git branch
+```
+
+✅ Your name branch should be highlighted.
+
+---
+
+## Step 4: Do the Practical Work
+
+* Open the project in VS Code
+* Complete all required React tasks
+* Test the app properly
+
+---
+
+## Step 5: Check Changed Files
+
+```bash
+git status
+```
+
+---
+
+## Step 6: Add & Commit Changes
+
+```bash
+git add .
+git commit -m "Completed React practical"
+```
+
+---
+
+## Step 7: Push Code to **Your Branch Only**
+
+```bash
+git push origin utsav
+```
+
+---
+
+## ✅ Final Checklist (Very Important)
+
+✔ Repository cloned
+✔ Branch created with **your name**
+✔ Work done only on **your branch**
+✔ Code pushed successfully
+
+---
+
+## ⚠️ Common Mistakes to Avoid
+
+* ❌ Don’t push to `main` or `master`
+* ❌ Don’t delete others’ code
+* ❌ Don’t share access tokens
+* ✅ Always work in your own branch
+
+---
+
+If you want, tell me:
+
+* Your **exact practical task**
+* Any **Git error message**
+* Or if you want a **React project structure check**
+
+I’ll help you instantly 👍
